@@ -47,7 +47,7 @@ class TimelineView extends Component {
 }
 
 const Timeline = props => (
-    <ListController {...props}>
+    <ListController {...props} perPage={5}>
         {controllerProps => (
             <>
                 <Title title="Events" />

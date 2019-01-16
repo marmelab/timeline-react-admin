@@ -12,6 +12,7 @@ storiesOf('Timeline', module)
                 (data, event) => ({ ...data, [event.id]: event }),
                 {}
             )}
+            total={10}
             loadedOnce={true}
         />
     ))

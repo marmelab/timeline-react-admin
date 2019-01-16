@@ -18,12 +18,17 @@ export class Timeline extends Component {
     updateData = () => {
         this.props.crudGetList(
             'events',
-            { page: this.page, perPage: 10 },
+            { page: this.page, perPage: 5 },
             { field: 'id', order: 'DESC' }
         );
     };
 
     componentDidMount() {
+        this.updateData();
+    }
+
+    componentWillUnmount() {
+        this.page = 1;
         this.updateData();
     }
 
