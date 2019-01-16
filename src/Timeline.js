@@ -11,7 +11,7 @@ export class Timeline extends Component {
         super(props);
         this.state = {
             events: props.ids.map(id => props.data[id]),
-            latestId: null,
+            latestId: props.ids[props.ids.length - 1],
         };
     }
 

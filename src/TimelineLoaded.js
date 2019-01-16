@@ -16,7 +16,7 @@ const styles = {
 };
 
 const getDayString = date =>
-    new Date(date).toLocaleDateString(undefined, {
+    new Date(date).toLocaleDateString('en', {
         weekday: 'long',
         year: 'numeric',
         month: 'long',
