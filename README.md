@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screencast](https://marmelab.com/storybook_App5-d9b4cf0e7faf3ed208c102f8b2334409.gif)
 
 ## Available Scripts
 
