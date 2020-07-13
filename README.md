@@ -1,5 +1,14 @@
 ![Screencast](https://marmelab.com/storybook_App5-d9b4cf0e7faf3ed208c102f8b2334409.gif)
 
+<table>
+        <tr>
+            <td><img width="20" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/archive.svg" alt="archived" /></td>
+            <td><strong>Archived Repository</strong><br />
+            This code is no longer maintained. Feel free to fork it, but use it at your own risks.
+        </td>
+        </tr>
+</table>
+
 ## Available Scripts
 
 In the project directory, you can run:
